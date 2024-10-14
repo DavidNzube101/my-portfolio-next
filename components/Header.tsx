@@ -3,6 +3,8 @@
 import { Link } from 'react-scroll';
 
 const Header = () => {
+  const menuItems: string[] = ['about', 'services', 'projects', 'contact'];
+
   return (
     <header className="bg-white shadow-md fixed w-full z-10">
       <div className="container mx-auto px-4 py-6 flex justify-between items-center">
@@ -11,7 +13,7 @@ const Header = () => {
         </div>
         <nav>
           <ul className="flex space-x-6">
-            {['about', 'services', 'projects', 'contact'].map((item) => (
+            {menuItems.map((item) => (
               <li key={item}>
                 <Link
                   to={item}
