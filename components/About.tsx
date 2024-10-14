@@ -23,13 +23,13 @@ const About: FC = () => {
           </div>
           <div className="md:w-1/2 md:pl-8">
             <p className="text-lg mb-4">
-              Hello! I'm David Nzube, a passionate FullStack Web Developer with over 4 years of experience in creating robust and scalable web applications.
+              Hello! I&apos;m David Nzube, a passionate FullStack Web Developer with over 4 years of experience in creating robust and scalable web applications.
             </p>
             <p className="text-lg mb-4">
-              My expertise spans across various technologies including HTML, CSS, JavaScript, Python, and PHP. I'm proficient in frameworks like React, Next.js, Flask, and Laravel.
+              My expertise spans across various technologies including HTML, CSS, JavaScript, Python, and PHP. I&apos;m proficient in frameworks like React, Next.js, Flask, and Laravel.
             </p>
             <p className="text-lg mb-4">
-              I'm dedicated to writing clean, efficient code and constantly learning new technologies to stay at the forefront of web development.
+              I&apos;m dedicated to writing clean, efficient code and constantly learning new technologies to stay at the forefront of web development.
             </p>
             <div className="mt-6">
               <h3 className="text-xl font-semibold mb-2">My Skills</h3>

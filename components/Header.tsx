@@ -19,7 +19,7 @@ const Header = () => {
                   to={item}
                   smooth={true}
                   duration={500}
-                  offset={-70} // Adjust this value based on your header height
+                  offset={-70} 
                   className="cursor-pointer hover:text-blue-600"
                 >
                   {item.charAt(0).toUpperCase() + item.slice(1)}
